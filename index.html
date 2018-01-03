@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proect Spisok</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <script src="scripts/alertify.min.js"></script>
+    <link rel="stylesheet" href="css/alertify.core.css" />
+    <link rel="stylesheet" href="css/alertify.default.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+    <div class="input">
+        <p class="enterpole">Text <input id="text" required placeholder="Enter the title"></p>
+        <p class="enterpole">Color <input id="color" required placeholder="Enter the color"></p>
+        <p class="enterpole">Marker
+            <select name="marker" id="marker" required >
+                <option selected  disabled>select a marker</option>
+                <option value="disc">disk</option>
+                <option value="circle">circle</option>
+                <option value="square">square</option>
+            </select>
+        </p>
+    </div>
+    <div class="button">
+        <button id="create" class="buttonForInput">Create</button>
+        <button id="change" class="buttonForInput">Change current</button>
+        <button id="delete" class="buttonForInput">Delete current</button>
+    </div>
+    <div class="list">
+        <ul id="ul">
+        </ul>
+    </div>
+</main>
+
+
+
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    outline: 0 !important;
+}
+body{
+    background: url("../images/backgroundWood.jpg");
+}
+main{
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 34px;
+    width: 1200px;
+    font-family: "Segoe UI", sans-serif;
+}
+div.input {
+    display: flex;
+    justify-content: center;
+}
+.enterpole{
+    margin: 50px;
+}
+div.button {
+    display: flex;
+    justify-content: center;
+}
+.buttonForInput{
+    font-size: 24px;
+    background: #000;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 10px;
+    font-family: "Segoe UI", sans-serif;
+    color: #FFF;
+}
+input,
+select{
+    color: #000000;
+    font-size: 18px;
+    font-family: "Segoe UI", sans-serif;
+}
+.selected{
+    border: 2px solid #ffffff;
+}
+.alertify{
+    top: 350px;
+}
+li{
+    padding-left: 30px;
+}
